@@ -96,8 +96,17 @@ nav{
     align-items: center;
     background-color: #222;
     padding: 10px 40px;
-    position: relative;
-    top: 40px;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+.nav-close{
+    display: none;
+}
+.nav-menu{
+    display: none;
+    z-index: 100;
 }
 .navigation{
     list-style: none;
